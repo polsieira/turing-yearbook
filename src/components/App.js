@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
-import Cohort from './Cohort';
-import people from '../data/yearbook-data.js';
-import './App.css';
+import React, {
+  Component
+} from 'react'
+import Cohort from './Cohort'
+import people from '../data/yearbook-data'
+import './App.css'
 
 class App extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
       staff: people.staff
     }
@@ -14,13 +16,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <header className="App-header">
-      <h1>Turing Yearbook</h1>
-      </header>
+        <header className="App-header">
+          <h1>Turing Yearbook</h1>
+        </header>
         YOUR CODE GOES HERE
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
