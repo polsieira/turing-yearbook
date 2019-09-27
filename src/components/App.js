@@ -22,9 +22,9 @@ class App extends Component {
           <h1>Turing Yearbook</h1>
         </header>
         <h2>Staff</h2>
-        <Cohort cohort={staff} />
+        <Cohort group={staff} />
         <h2>Students</h2>
-        <Cohort cohort={students} />
+        <Cohort group={students} />
       </div>
     )
   }
